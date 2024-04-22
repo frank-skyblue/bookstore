@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Counter } from "./components/counter/Counter";
+import { BookList } from "./components/booklist/BookList";
 
 export default function IndexPage() {
-  return <Counter />;
+  return <BookList />;
 }
 
 export const metadata: Metadata = {
