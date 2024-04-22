@@ -5,7 +5,6 @@ import { useState } from "react";
 import {
   decrement,
   increment,
-  incrementAsync,
   incrementByAmount,
   incrementIfOdd,
   selectCount,
@@ -59,13 +58,6 @@ export const Counter = () => {
           onClick={() => dispatch(incrementByAmount(incrementValue))}
         >
           Add Amount
-        </button>
-        <button
-          className={styles.asyncButton}
-          disabled={status !== "idle"}
-          onClick={() => dispatch(incrementAsync(incrementValue))}
-        >
-          Add Async
         </button>
         <button
           className={styles.button}
