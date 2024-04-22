@@ -2,12 +2,7 @@
 
 import { useState } from "react";
 
-import {
-  add,
-  remove,
-  update,
-  selectList,
-} from "@/lib/features/booklist/bookListSlice";
+import { remove, selectList } from "@/lib/features/booklist/bookListSlice";
 
 import { useAppDispatch, useAppSelector } from "@/lib/hooks";
 import { TrashIcon, PlusIcon } from "@heroicons/react/24/solid";

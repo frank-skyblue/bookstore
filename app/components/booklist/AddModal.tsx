@@ -60,7 +60,7 @@ export const AddModal = ({ setShowModal }: { setShowModal: Function }) => {
               <div className="flex justify-between mt-1 border-text-primary/50">
                 <button
                   className="bg-green-200 text-xs font-bold uppercase px-4 py-2 outline-none rounded"
-                  type="button"
+                  type="submit"
                   onClick={handleSubmit}
                 >
                   Submit
